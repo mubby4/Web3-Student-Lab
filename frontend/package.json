@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --webpack",
-    "build": "next build --webpack",
-    "start": "next start --webpack",
+    "dev": "node init && next dev --webpack",
+    "build": "node init && next build --webpack",
+    "start": "node init && next start --webpack",
     "test": "vitest run --coverage",
     "test:watch": "vitest"
   },
